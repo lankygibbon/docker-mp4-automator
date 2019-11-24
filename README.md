@@ -6,7 +6,8 @@ My media plays to Roku devices so I convert to MP4/H.264/AAC(AC3 if available). 
 
 ### Running
 ```
-git clone https://github.com/mwdomino/sickbeard_mp4_automator.git
+git clone https://github.com/lankygibbon/docker-mp4-automator.git
+cd docker-mp4-automator
 docker build -t mp4-automator .
 docker run -it -v <path_to_media_folder>:/data mp4-automator
 ```
